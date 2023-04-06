@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    position: absolute;
+}
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.top-right {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    bottom: 200px;
+    left: 60%;
+    text-align: left;
+  }
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 200px;
+    padding-bottom: 10px;
+    margin-top: 250px;
+}
+
+.person {
+    width: 30%;
+    display: flex;
+    margin-left: 70px;
+}
+section>div>ul>li{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+.container3{
+    display: block;
+    margin-left: 250px;
+    box-sizing: border-box;
+    margin-bottom: 250px;
+}
+.center{
+    margin-left: 700px;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 18px;
+    height: 100px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container4 img{
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 200px;
+
+}
+.link-button1 {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(245, 248, 249), rgb(249, 245, 244));
+    padding: 10px 10px;
+    color: rgb(45, 30, 2);
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-left {
+    position: absolute;
+    /* top: 200px; */
+    right: 100px;
+    bottom: 200px;
+    left: 300px;
+    text-align: left;
+    color: rgb(212, 228, 242);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 300px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 50%;
+    padding-left: 300px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1{
+    background-color: rgb(78, 59, 59);
+    background-color: black;
+    color: azure;
+  }
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .inp{
+    background-color: rgb(62, 3, 3);
+  }
