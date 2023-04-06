@@ -96,7 +96,7 @@ ul{
     color: rgb(212, 228, 242);
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
   }
   
   * {
@@ -116,12 +116,11 @@ ul{
     background-color: rgb(78, 59, 59);
     background-color: black;
     color: azure;
+    height: 400px;
   }
   .row1:after {
     content: "";
     display: table;
     clear: both;
   }
-  .inp{
-    background-color: rgb(62, 3, 3);
-  }
+
